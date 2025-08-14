@@ -56,15 +56,15 @@ A mobile quiz application that loads questions from a local JSON file, supports 
 ## Setup Instructions
 
 ### Prerequisites
-- Flutter SDK (3.19.5 or higher)
-- Dart (3.3.1 or higher)
+- Flutter 3.32.0 • channel stable • https://github.com/flutter/flutter.git
+- Dart 3.8.0 • DevTools 2.45.1
 - Android Studio / Xcode (for building)
 
 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/latexquiz_rubizcode.git
+   git clone https://github.com/kh1amirhamza/latexquiz_rubizcode.git
    cd latexquiz_rubizcode
    ```
 
