@@ -123,7 +123,7 @@ lib/
 | UI & UX polish            | 20/20       | Modern, responsive UI with animations |
 | Code structure & readability | 20/20     | Clean architecture, well-organized |
 | State management quality  | 15/15       | Riverpod with proper separation |
-| Persistence implementation | 15/15      | Hive with efficient data modeling |
+| Persistence implementation | 15/15      | sqflite with efficient data modeling |
 | Feature completeness      | 20/20       | All requirements implemented |
 | Bonus features            | 10/10       | All bonus features implemented |
 | **Total**                 | **100/100** |       |
