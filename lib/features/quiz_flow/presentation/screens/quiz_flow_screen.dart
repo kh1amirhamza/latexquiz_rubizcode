@@ -298,6 +298,13 @@ class QuizFlowScreen extends HookConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () {
+          ref.read(quizStateNotifierProvider(questions).notifier).disposeTimer();
+            context.goNamed(RouteConst.root);
+          },
+        ),
         title: Text(
           "${category.displayName} Quiz",
           style: textTheme.titleLarge,
@@ -353,7 +360,9 @@ class QuizFlowScreen extends HookConsumerWidget {
                   child: Text(
                     "Question ${quizState.currentIndex + 1} of ${questions.length}",
                     style: textTheme.bodyMedium?.copyWith(
-                      color: colorScheme.onSurface.withAlpha((0.7 * 255).round()),
+                      color: colorScheme.onSurface.withAlpha(
+                        (0.7 * 255).round(),
+                      ),
                     ),
                     textAlign: TextAlign.center,
                   ),
@@ -401,15 +410,15 @@ class QuizFlowScreen extends HookConsumerWidget {
                       transitionBuilder: (child, anim) => FadeTransition(
                         opacity: anim,
                         child: SlideTransition(
-                          position: index%2==0?
-                          Tween<Offset>(
-                            begin: const Offset(0, 1),
-                            end: Offset.zero,
-                          ).animate(anim):
-                           Tween<Offset>(
-                            begin: const Offset(1, 0),
-                            end: Offset.zero,
-                          ).animate(anim),
+                          position: index % 2 == 0
+                              ? Tween<Offset>(
+                                  begin: const Offset(0, 1),
+                                  end: Offset.zero,
+                                ).animate(anim)
+                              : Tween<Offset>(
+                                  begin: const Offset(1, 0),
+                                  end: Offset.zero,
+                                ).animate(anim),
                           child: child,
                         ),
                       ),
@@ -436,7 +445,9 @@ class QuizFlowScreen extends HookConsumerWidget {
                 Padding(
                   padding: const EdgeInsets.only(top: 16),
                   child: ElevatedButton(
-                    onPressed: isAnswered || (isLastQuestion && quizState.remainingSeconds == 0)
+                    onPressed:
+                        isAnswered ||
+                            (isLastQuestion && quizState.remainingSeconds == 0)
                         ? () {
                             if (isLastQuestion) {
                               quizNotifier.disposeTimer();

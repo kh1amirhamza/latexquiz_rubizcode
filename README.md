@@ -3,14 +3,6 @@ Here's a comprehensive `README.md` for your Flutter Quiz App with Leaderboard pr
 ```markdown
 # Flutter Quiz App with Leaderboard
 
-[![Flutter](https://img.shields.io/badge/Flutter-3.19.5-blue)](https://flutter.dev)
-[![Dart](https://img.shields.io/badge/Dart-3.3.1-blue)](https://dart.dev)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-
-<p align="center">
-  <img src="screenshots/app_icon.png" alt="App Icon" width="200">
-</p>
-
 A mobile quiz application that loads questions from a local JSON file, supports LaTeX rendering for math/science questions, tracks scores, and maintains a persistent leaderboard.
 
 ## Features
@@ -135,81 +127,10 @@ lib/
 | Bonus features            | 10/10       | All bonus features implemented |
 | **Total**                 | **100/100** |       |
 
-## Demo Video
-[Watch App Demo](https://example.com/demo-video) (2-3 minute walkthrough)
+
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-## Requirements Checklist
-
-### Core Requirements
-1. **Home Screen**
-   - [x] App title + "Start Quiz" button
-   - [x] "Leaderboard" button
-   - [x] Category selection
-
-2. **Quiz Flow**
-   - [x] Load questions from assets/questions.json
-   - [x] LaTeX/Math equation rendering
-   - [x] Show 1 question at a time
-   - [x] Multiple-choice answers (4 options)
-   - [x] Answer selection (lock once selected)
-   - [x] "Next" button
-   - [x] Progress indicator
-
-3. **Results Screen**
-   - [x] Final score display
-   - [x] Player name entry
-   - [x] Score saving to leaderboard
-
-4. **Leaderboard**
-   - [x] Top scores display
-   - [x] Sort by highest score
-   - [x] Persistent storage (Hive)
-
-### Technical Requirements
-- [x] Works entirely offline
-- [x] LaTeX content displays correctly
-- [x] Data persists between app restarts
-- [x] Clean, responsive UI
-- [x] APK provided
-- [x] README with setup instructions
-
-### Bonus Features
-- [x] Timed questions (15s countdown)
-- [x] Animations between questions
-- [x] Category selection
-- [x] Dark mode support
-- [x] Unit tests for score calculation
-- [x] GitHub Actions CI pipeline
-
-### Deliverables
-- [x] Git repository (with access)
-- [x] README with:
-  - [x] Flutter/Dart version
-  - [x] Setup steps
-  - [x] Architecture overview
-  - [x] Implemented vs skipped features
-- [x] APK file
-- [x] (Optional) Demo video
-
-## Recommended Project Structure
-Create these files in your project root:
-
-```
-📁 latexquiz_rubizcode/
-├── 📁 android/             # Android-specific files
-├── 📁 assets/              # Static assets
-│   └── 📁 questions/       # Question JSON files
-├── 📁 ios/                 # iOS-specific files
-├── 📁 lib/                 # Dart source code
-├── 📁 screenshots/         # App screenshots
-├── 📄 .github/workflows/   # CI configuration
-├── 📄 README.md            # Project documentation
-├── 📄 pubspec.yaml         # Dependencies
-└── 📄 LICENSE              # MIT License
 ```
 
 For screenshots, include:

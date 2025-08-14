@@ -125,9 +125,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       appBar: AppBar(
         title: Text("Quiz App", style: textTheme.titleLarge),
         centerTitle: true,
-        actions: [
-          // Leaderboard button
-          IconButton(
+        leading: IconButton(
             tooltip: "Leaderboard",
             onPressed: () {
               ref
@@ -138,12 +136,14 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             icon: Badge(
               backgroundColor: colorScheme.primary,
               child: Icon(
-                Icons.leaderboard,
-                color: colorScheme.onSurface,
+                Icons.leaderboard_rounded,
+                color: colorScheme.primary,
                 size: 28,
               ),
             ),
           ),
+        actions: [
+          
           
           // Theme toggle
           const ThemeToggleButton(),
