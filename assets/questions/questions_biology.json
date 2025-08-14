@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the powerhouse of the cell?",
+    "options": ["Nucleus", "Mitochondria", "Ribosome", "Endoplasmic Reticulum"],
+    "answer_index": 1
+  },
+  {
+    "question": "DNA stands for?",
+    "options": ["Deoxyribonucleic Acid", "Dicarboxylic Acid", "Deoxyribose Acid", "Dioxin Acid"],
+    "answer_index": 0
+  },
+  {
+    "question": "Which process converts glucose into energy?",
+    "options": ["Photosynthesis", "Respiration", "Fermentation", "Transpiration"],
+    "answer_index": 1
+  },
+  {
+    "question": "What type of blood cells are responsible for immunity?",
+    "options": ["Red blood cells", "White blood cells", "Platelets", "Plasma cells"],
+    "answer_index": 1
+  },
+  {
+    "question": "Which organelle contains digestive enzymes?",
+    "options": ["Lysosome", "Golgi apparatus", "Nucleus", "Chloroplast"],
+    "answer_index": 0
+  },
+  {
+    "question": "The chemical formula of water is $$ H_2O $$",
+    "options": ["H2O2", "HO2", "H2O", "O2H"],
+    "answer_index": 2
+  },
+  {
+    "question": "The equation for photosynthesis is $$ 6CO_2 + 6H_2O \\to C_6H_{12}O_6 + 6O_2 $$",
+    "options": ["Respiration equation", "Photosynthesis equation", "Combustion equation", "Fermentation equation"],
+    "answer_index": 1
+  },
+  {
+    "question": "Which macromolecule is primarily used for energy storage?",
+    "options": ["Proteins", "Lipids", "Carbohydrates", "Nucleic acids"],
+    "answer_index": 2
+  },
+  {
+    "question": "Which blood type is considered universal donor?",
+    "options": ["O-", "O+", "AB-", "AB+"],
+    "answer_index": 0
+  },
+  {
+    "question": "The Mendelian principle of independent assortment applies to ___?",
+    "options": ["Alleles on the same chromosome", "Genes on different chromosomes", "Linked traits", "Mutations"],
+    "answer_index": 1
+  }
+]

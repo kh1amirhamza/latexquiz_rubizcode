@@ -1,0 +1,102 @@
+[
+    {
+        "question": "Acceleration formula is $$ a = \\frac{\\Delta v}{\\Delta t} $$, if $$ \\Delta v = 20 \\ m/s $$ and $$ \\Delta t = 4 \\ s $$, find $$ a $$.",
+        "options": [
+            "$$ 5 \\ m/s^2 $$",
+            "$$ 4 \\ m/s^2 $$",
+            "$$ 6 \\ m/s^2 $$",
+            "$$ 8 \\ m/s^2 $$"
+        ],
+        "answer_index": 0
+    },
+    {
+        "question": "Force formula $$ F = ma $$, if $$ m = 10 \\ kg $$, $$ a = 2 \\ m/s^2 $$, find $$ F $$.",
+        "options": [
+            "$$ 5 \\ N $$",
+            "$$ 15 \\ N $$",
+            "$$ 20 \\ N $$",
+            "$$ 25 \\ N $$"
+        ],
+        "answer_index": 2
+    },
+    {
+        "question": "Speed of light in vacuum is?",
+        "options": [
+            "$$ 2 \\times 10^8 $$",
+            "$$ 1.5 \\times 10^8 $$",
+            "$$ 3.5 \\times 10^8 $$",
+            "$$ 3 \\times 10^8 \\ m/s $$"
+        ],
+        "answer_index": 3
+    },
+    {
+        "question": "Work done formula $$ W = Fd $$, if $$ F = 50 \\ N $$, $$ d = 2 \\ m $$, find $$ W $$.",
+        "options": [
+            "$$ 100 \\ J $$",
+            "$$ 50 \\ J $$",
+            "$$ 25 \\ J $$",
+            "$$ 150 \\ J $$"
+        ],
+        "answer_index": 0
+    },
+    {
+        "question": "Energy formula $$ E = mc^2 $$, if $$ m = 2 \\ kg $$, $$ c = 3 \\times 10^8 \\ m/s $$, find $$ E $$.",
+        "options": [
+            "$$ 1.8 \\times 10^{17} \\ J $$",
+            "$$ 9 \\times 10^{16} \\ J $$",
+            "$$ 3 \\times 10^{17} $$",
+            "$$ 2 \\times 10^{18} $$"
+        ],
+        "answer_index": 0
+    },
+    {
+        "question": "Frequency formula $$ f = \\frac{1}{T} $$, if $$ T = 0.5 \\ s $$, find $$ f $$.",
+        "options": [
+            "$$ 0.5 \\ Hz $$",
+            "$$ 1 \\ Hz $$",
+            "$$ 2 \\ Hz $$",
+            "$$ 5 \\ Hz $$"
+        ],
+        "answer_index": 2
+    },
+    {
+        "question": "If $$ v = u + at $$, $$ u = 0 $$, $$ a = 10 $$, $$ t = 5 $$, find $$ v $$.",
+        "options": [
+            "$$ 50 $$",
+            "$$ 20 $$",
+            "$$ 40 $$",
+            "$$ 10 $$"
+        ],
+        "answer_index": 0
+    },
+    {
+        "question": "Gravitational force formula $$ F = G \\frac{m_1 m_2}{r^2} $$ — What does $$ G $$ represent?",
+        "options": [
+            "Acceleration due to gravity",
+            "Gravitational constant",
+            "Mass of earth",
+            "Force of gravity"
+        ],
+        "answer_index": 1
+    },
+    {
+        "question": "Unit of power?",
+        "options": [
+            "Watt (W)",
+            "Newton (N)",
+            "Joule (J)",
+            "Pascal (Pa)"
+        ],
+        "answer_index": 0
+    },
+    {
+        "question": "If $$ KE = \\frac{1}{2}mv^2 $$, $$ m = 4 $$, $$ v = 3 $$, find $$ KE $$.",
+        "options": [
+            "$$ 18 \\ J $$",
+            "$$ 12 \\ J $$",
+            "$$ 24 \\ J $$",
+            "$$ 36 \\ J $$"
+        ],
+        "answer_index": 0
+    }
+]
