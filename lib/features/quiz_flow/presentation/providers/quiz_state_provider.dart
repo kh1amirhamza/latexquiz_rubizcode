@@ -48,8 +48,9 @@ class QuizNotifier extends StateNotifier<QuizState> {
   }
 
   void selectAnswer(int index) {
-    if (state.selectedAnswers[state.currentIndex] != null)
+    if (state.selectedAnswers[state.currentIndex] != null) {
       return; // single selection
+    }
 
     final updatedAnswers = List<int?>.from(state.selectedAnswers);
     updatedAnswers[state.currentIndex] = index;

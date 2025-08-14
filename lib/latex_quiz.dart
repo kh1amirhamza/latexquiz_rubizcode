@@ -18,8 +18,6 @@ class LatexQuiz extends ConsumerWidget {
 
     final themeMode = ref.watch(themeModeProvider);
 
-    print("ThemeMode: ${themeMode.name}");
-
     return MaterialApp.router(
       debugShowCheckedModeBanner: false,
       title: 'Latex Quiz',

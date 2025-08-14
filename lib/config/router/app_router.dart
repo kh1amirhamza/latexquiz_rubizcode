@@ -6,7 +6,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:latexquiz_rubizcode/features/home/presentation/screens/home_screen.dart';
 import 'package:latexquiz_rubizcode/features/leaderboard/presentation/screens/leaderboard_screen.dart';
-import 'package:latexquiz_rubizcode/features/quiz_flow/domain/entities/question.dart';
 import 'package:latexquiz_rubizcode/features/quiz_flow/presentation/screens/quiz_flow_screen.dart';
 import 'package:latexquiz_rubizcode/features/result/presentation/screens/result_screen.dart';
 import 'package:latexquiz_rubizcode/main.dart';

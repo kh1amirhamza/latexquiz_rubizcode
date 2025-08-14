@@ -3,7 +3,6 @@ import 'package:flutter/services.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:latexquiz_rubizcode/features/quiz_flow/data/models/question_model.dart';
 import 'package:latexquiz_rubizcode/features/quiz_flow/domain/entities/category.dart';
-import 'package:latexquiz_rubizcode/features/quiz_flow/domain/entities/question.dart' hide QuizCategory;
 
 abstract class QuizLocalDataSource {
   Future<List<QuestionModel>> loadQuestions(QuizCategory category);

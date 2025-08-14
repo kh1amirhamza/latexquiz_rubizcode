@@ -1,5 +1,4 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:latexquiz_rubizcode/features/quiz_flow/domain/entities/question.dart';
 
 part 'question_model.freezed.dart';
 part 'question_model.g.dart';
@@ -9,7 +8,8 @@ abstract class QuestionModel with _$QuestionModel {
   factory QuestionModel({
     required String question,
     required List<String> options,
-    @JsonKey(name: 'answer_index') required int answerIndex,
+     @JsonKey(name: 'answer_index') 
+    required int answerIndex,
   }) = _QuestionModel;
 
   factory QuestionModel.fromJson(Map<String, dynamic> json) =>

@@ -168,7 +168,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               Text(
                 "Select a subject to begin",
                 style: textTheme.bodyLarge?.copyWith(
-                  color: colorScheme.onSurface.withOpacity(0.7),
+                  color: colorScheme.onSurface.withAlpha(150),
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -267,10 +267,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
         color = Colors.orange;
         bgColor = Colors.orange.shade100;
         break;
-      default:
-        icon = Icons.category;
-        color = colorScheme.primary;
-        bgColor = colorScheme.primaryContainer;
+
     }
 
     return Card(

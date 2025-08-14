@@ -253,10 +253,10 @@ class QuizFlowScreen extends HookConsumerWidget {
         return colorScheme.surface;
       }
       if (index == currentQuestion.answerIndex) {
-        return colorScheme.tertiary.withOpacity(0.2);
+        return colorScheme.tertiary.withAlpha((0.2 * 255).round());
       }
       if (index == selectedIndex) {
-        return colorScheme.error.withOpacity(0.2);
+        return colorScheme.error.withAlpha((0.2 * 255).round());
       }
       return colorScheme.surface;
     }
@@ -309,7 +309,7 @@ class QuizFlowScreen extends HookConsumerWidget {
             value: (quizState.currentIndex + 1) / questions.length,
             minHeight: 6,
             color: colorScheme.primary,
-            backgroundColor: colorScheme.surfaceVariant,
+            backgroundColor: colorScheme.surface,
           ),
         ),
         actions: [
@@ -353,7 +353,7 @@ class QuizFlowScreen extends HookConsumerWidget {
                   child: Text(
                     "Question ${quizState.currentIndex + 1} of ${questions.length}",
                     style: textTheme.bodyMedium?.copyWith(
-                      color: colorScheme.onSurface.withOpacity(0.7),
+                      color: colorScheme.onSurface.withAlpha((0.7 * 255).round()),
                     ),
                     textAlign: TextAlign.center,
                   ),

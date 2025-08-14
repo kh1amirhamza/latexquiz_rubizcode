@@ -93,10 +93,10 @@ class ResultsScreen extends HookConsumerWidget {
   final int totalQuestions;
 
   const ResultsScreen({
-    Key? key,
+    super.key,
     required this.score,
     required this.totalQuestions,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -182,7 +182,7 @@ class ResultsScreen extends HookConsumerWidget {
                     child: CircularProgressIndicator(
                       value: percentage / 100,
                       strokeWidth: 12,
-                      backgroundColor: colorScheme.surfaceVariant,
+                      backgroundColor: colorScheme.surface,
                       color: performanceColor,
                     ),
                   ),
@@ -218,7 +218,7 @@ class ResultsScreen extends HookConsumerWidget {
               Text(
                 '$score out of $totalQuestions correct',
                 style: textTheme.bodyLarge?.copyWith(
-                  color: colorScheme.onSurface.withOpacity(0.8),
+                  color: colorScheme.onSurface.withAlpha((0.8* 255).round()),
                 ),
               ),
               kGapXXXXL,
@@ -230,7 +230,7 @@ class ResultsScreen extends HookConsumerWidget {
                   labelText: 'Enter your name',
                   labelStyle: TextStyle(color: colorScheme.onSurfaceVariant),
                   filled: true,
-                  fillColor: colorScheme.surfaceVariant,
+                  fillColor: colorScheme.surface,
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12),
                     borderSide: BorderSide.none,

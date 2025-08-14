@@ -142,13 +142,13 @@ class LeaderboardScreen extends ConsumerWidget {
             Icon(
               Icons.leaderboard_outlined,
               size: 72,
-              color: colorScheme.onSurface.withOpacity(0.3),
+              color: colorScheme.onSurface.withAlpha(70),
             ),
             const SizedBox(height: 24),
             Text(
               "No Scores Yet",
               style: textTheme.titleLarge?.copyWith(
-                color: colorScheme.onSurface.withOpacity(0.7),
+                color: colorScheme.onSurface.withAlpha(200),
               ),
             ),
             const SizedBox(height: 12),
@@ -156,7 +156,7 @@ class LeaderboardScreen extends ConsumerWidget {
               "Complete a quiz to appear on the leaderboard",
               textAlign: TextAlign.center,
               style: textTheme.bodyLarge?.copyWith(
-                color: colorScheme.onSurface.withOpacity(0.5),
+                color: colorScheme.onSurface.withAlpha(132),
               ),
             ),
             const SizedBox(height: 32),
@@ -261,7 +261,7 @@ class LeaderboardScreen extends ConsumerWidget {
                             ),
                             boxShadow: [
                               BoxShadow(
-                                color: Colors.black.withOpacity(0.1),
+                                color: Colors.black.withAlpha(30),
                                 blurRadius: 8,
                                 offset: const Offset(0, 4),
                               ),
@@ -378,13 +378,12 @@ class LeaderboardScreen extends ConsumerWidget {
             subtitle: Text(
               score['category'] ?? "General",
               style: textTheme.bodyMedium?.copyWith(
-                color: colorScheme.onSurface.withOpacity(0.7),
+                color: colorScheme.onSurface.withAlpha((0.7 * 255).round()),
               ),
             ),
             trailing: Container(
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
               decoration: BoxDecoration(
-                color: colorScheme.surfaceVariant,
                 borderRadius: BorderRadius.circular(20),
               ),
               child: Text(
