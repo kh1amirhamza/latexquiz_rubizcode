@@ -60,6 +60,7 @@ A mobile quiz application that loads questions from a local JSON file, supports 
 - Dart (3.3.1 or higher)
 - Android Studio / Xcode (for building)
 
+
 ### Installation
 1. Clone the repository:
    ```bash
