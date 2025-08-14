@@ -1,6 +1,6 @@
 Here's a comprehensive `README.md` for your Flutter Quiz App with Leaderboard project:
 
-```markdown
+
 # Flutter Quiz App with Leaderboard
 
 A mobile quiz application that loads questions from a local JSON file, supports LaTeX rendering for math/science questions, tracks scores, and maintains a persistent leaderboard.
@@ -43,7 +43,7 @@ A mobile quiz application that loads questions from a local JSON file, supports 
 ## Screenshots
 | Home Screen | Quiz Screen | Results | Leaderboard |
 |-------------|-------------|---------|-------------|
-| <img src="screenshots/home.png" width="200"> | <img src="screenshots/quiz.png" width="200"> | <img src="screenshots/results.png" width="200"> | <img src="screenshots/leaderboard.png" width="200"> |
+| <img src="screenshots/home.png" width="200"> | <img src="screenshots/quiz.png" width="200"> | <img src="screenshots/result.png" width="200"> | <img src="screenshots/leaderboard.png" width="200"> |
 
 ## Setup Instructions
 
@@ -51,7 +51,8 @@ A mobile quiz application that loads questions from a local JSON file, supports 
 - Flutter 3.32.0 • channel stable • https://github.com/flutter/flutter.git
 - Dart 3.8.0 • DevTools 2.45.1
 - Android Studio / Xcode (for building)
-
+- 
+```markdown
 
 ### Installation
 1. Clone the repository:
